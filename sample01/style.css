@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+#game-container {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  border: 2px solid #000;
+}
+
+#ball, #paddle {
+  position: absolute;
+  background-color: #000;
+}
+
+#ball {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+#paddle {
+  width: 80px;
+  height: 20px;
+  bottom: 0;
+  background-color: #0095DD;
+}
+
+.brick-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.brick {
+  width: 70px;
+  height: 20px;
+  background-color: #0095DD;
+  margin-top: 10px;
+}
