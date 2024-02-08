@@ -1,0 +1,18 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#game-container {
+  margin-top: 50px;
+}
+
+#ojisan-image {
+  width: 200px;
+  height: 200px;
+}
+
+#score {
+  margin-top: 20px;
+  font-size: 24px;
+}
