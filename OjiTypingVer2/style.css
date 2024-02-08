@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#home-container, #training-container {
+  margin-top: 50px;
+}
+
+#points-display {
+  margin-bottom: 20px;
+}
+
+#start-game-btn, #ojisan-training-btn {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+#ojisan-info {
+  float: left;
+  width: 50%;
+}
+
+#item-store {
+  float: right;
+  width: 50%;
+}
+
+.item {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #e0e0e0;
+  cursor: pointer;
+}
+
+.item:hover {
+  background-color: #ccc;
+}
